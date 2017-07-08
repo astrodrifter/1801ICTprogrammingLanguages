@@ -73,7 +73,6 @@ public class HelloWorld1 {
 			}
 		}
 		System.out.printf("biggest = " + biggest);
-		
 	}
 
 }
