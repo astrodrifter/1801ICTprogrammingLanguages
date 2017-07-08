@@ -77,8 +77,15 @@ public class HelloWorld1 {
 		//access from another class "methods"
 		int a = 2;
 		int b = 3;
+		System.out.printf("a = " + a +" b =  "+b+"\n");
 		int sum = Methods.sum(a,b);
-		System.out.printf(" sum of " + a + " and " + b + " = " + sum); 
+		System.out.printf("sum of " + a + " and " + b + " = " + sum + "\n"); 
+		
+		//swap integers
+		Methods.swap(a,b);
+		System.out.printf("a = " + a +" b =  "+b+"\n");
+		// Doesn't work
 	}
+	
 
 }

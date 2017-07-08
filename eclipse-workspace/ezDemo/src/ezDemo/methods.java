@@ -12,4 +12,11 @@ public class Methods {
 		sum = a + b;
 		return sum;
 	}
+	
+	static void swap(int a, int b) {
+		int temp;
+		temp = a;
+		a = b;
+		b = temp;
+	}
 }
