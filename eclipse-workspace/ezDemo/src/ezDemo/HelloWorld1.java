@@ -29,6 +29,27 @@ public class HelloWorld1 {
 			i++;
 		}
 		
+		// Array of integers
+		int myArray[] = new int[5]; //elements initialized to zero automatically
+		myArray[0] = 1;
+		
+		for (int j = 0; j < 5; j++) {
+			System.out.println(myArray[j]); //print array elements
+		}
+		
+		// 2D array of integers
+		int myArray2[][] = new int[5][5]; //elements initialized to zero automatically
+		myArray2[0][0] = 1;
+		
+		for (int j = 0; j < 5; j++) {
+			for (int k = 0; k < 5; k++) {
+			System.out.printf(" " + myArray2[j][k]); //print array elements
+			}
+			System.out.printf("\n");
+		}
+		
+		
+		
 	}
 
 }
