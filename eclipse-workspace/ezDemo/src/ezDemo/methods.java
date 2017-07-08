@@ -1,14 +1,10 @@
 package ezDemo;
 
-public class methods {
+public class Methods {
 	public static void main(String[] args) {
 		int num;
 		num = sum(2,3);
 		System.out.println(num);
-		
-		
-		
-		
 	}
 	
 	static int sum(int a, int b) {
@@ -17,4 +13,3 @@ public class methods {
 		return sum;
 	}
 }
-

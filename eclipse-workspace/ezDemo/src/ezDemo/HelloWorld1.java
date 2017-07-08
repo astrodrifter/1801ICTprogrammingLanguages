@@ -74,11 +74,11 @@ public class HelloWorld1 {
 		}
 		System.out.printf("biggest = " + biggest + "\n");
 		
-		// access from another class "methods"
+		//access from another class "methods"
 		int a = 2;
 		int b = 3;
-		int sum = methods.sum(a,b);
-		System.out.printf(" sum of " + a + " and " + b + " = " + sum);
+		int sum = Methods.sum(a,b);
+		System.out.printf(" sum of " + a + " and " + b + " = " + sum); 
 	}
 
 }
