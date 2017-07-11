@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Cpp" Database="" Version="10.0.0">
-  <Project Name="helloWorld" Path="helloWorld/helloWorld.project" Active="Yes"/>
+  <Project Name="helloWorld" Path="helloWorld/helloWorld.project" Active="No"/>
+  <Project Name="pascal1" Path="pascal1/pascal1.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="helloWorld" ConfigName="Debug"/>
+      <Project Name="pascal1" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="helloWorld" ConfigName="Release"/>
+      <Project Name="pascal1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

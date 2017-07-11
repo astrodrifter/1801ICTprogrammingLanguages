@@ -63,7 +63,7 @@ public class HelloWorld1 {
 			System.out.printf("\n");
 		}
 		
-		// find max in each row of myArray
+		// find max in myArray
 		int biggest = myArray2[0][0];
 		for (int j = 0; j < 5; j++) {
 			for (int k = 0; k < 5; k++) {
